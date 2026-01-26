@@ -1,0 +1,18 @@
+
+.nav{
+    background-color: rgb(44, 9, 85);
+    color: rgb(255, 255,255);
+    font-size: 45px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.nav-items p{
+    border: none;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 32px;
+    color: rgb(255,255,255);
+    border-radius: 10px;
+}
