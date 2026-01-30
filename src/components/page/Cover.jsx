@@ -1,11 +1,13 @@
-import "../css-page/Cover.css"
+import "../style/Cover.css"
 
 function Cover() {
     return (
         <>
             <div className="cover">
-                <h2>TecnoFix</h2>
-                <p>Reparaciones y mantenimientos de computadoras</p>
+                <div className="cover-msg">
+                    <h2 className="cover-msg-h2">TecnoFix</h2>
+                    <p className="cover-msg-p">Reparaciones y mantenimientos de computadoras</p>
+                </div>
             </div>
         </>
     )

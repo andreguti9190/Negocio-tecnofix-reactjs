@@ -1,14 +1,16 @@
-import "../css-page/Nav.css"
+import "../style/Nav.css"
 
 function Nav() {
     return (
         <>
             <nav className="nav">
                 <div className="nav-items">
-                    <img src="assets/logo.png" alt="TecnoFix" height="80px"/>
+                    <img src="/logo.png" alt="TecnoFix" height="80px"/>
                 </div>
                 <div className="nav-items">
-                    <p>Contactanos</p>
+                    <a href="#" className="nav-items-a">Objetivos</a>
+                    <a href="#" className="nav-items-a">Sobre Nosotros</a>
+                    <a href="#" className="nav-items-a">Contactanos</a>
                 </div>
             </nav>
         </>

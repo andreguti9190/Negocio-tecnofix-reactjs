@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ccc;
+    background-color: rgb(44, 9, 85);
+    font-size: 30px;
+    padding: 20px;
+}
+.contact{
+    width: 100%;
+    margin: 5pxs;
+    justify-content: space-around;
+}
+.contact-bt{
+    color: #ccc;
+    font-size: 22px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(77, 18, 145);
+}

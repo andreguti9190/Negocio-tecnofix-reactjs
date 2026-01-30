@@ -1,0 +1,24 @@
+
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #fff;
+    margin: 3%;
+    width: 92%;
+    height: 480px;
+    background: url(./fondo.jpg) no-repeat center center/cover;
+}
+.cover-msg{
+    background-color: #230d2e94;
+    border: 3px solid #fff;
+    margin: 10px;
+}
+.cover-msg-h2{
+    padding: 5px;
+    font-size: 60px;
+}
+.cover-msg-p{
+    padding: 5px;
+    font-size: 30px;
+}
