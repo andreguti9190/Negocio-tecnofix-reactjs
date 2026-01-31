@@ -8,7 +8,7 @@ function Contacto() {
             <footer  className="footer">
                 <h3>Contacto</h3>
                 <div className="contact">
-                    { links.data.map((item)=> <div key={item.id} ><a href={item.link}className="contact-bt">{item.name}</a></div>) }
+                    { links.data.map((item)=> <div key={item.id} className="contact-item" ><a href={item.link}className="contact-bt">{item.name}</a></div>) }
                 </div>
             </footer>
         </>

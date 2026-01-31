@@ -8,18 +8,23 @@
     padding: 20px;
 }
 .contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
-    margin: 5pxs;
-    justify-content: space-around;
+    margin: 5px;
+}
+.contact-item{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 8px;
+    background-color: rgb(77, 18, 145);
+    border-radius: 4px;
+    margin: 10px;
 }
 .contact-bt{
     color: #ccc;
     font-size: 22px;
-    width: 300px;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
     text-decoration: none;
-    background-color: rgb(77, 18, 145);
 }
