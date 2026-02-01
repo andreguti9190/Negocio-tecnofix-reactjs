@@ -1,24 +1,31 @@
 
 .nav{
-    background-color: rgb(44, 9, 85);
+    user-select: none;
+    text-shadow: 1px 1px #000;
+    font-weight: bolder;
+    position: fixed;
+    top: 0;
     color: rgb(255, 255,255);
     width: 100%;
     padding: 15px;
     display: flex;
     justify-content: space-between;
 }
+.nav img{
+    width: 120px;
+    filter: drop-shadow(2px 2px #000);
+}
 .nav-items{
     display: flex;
+    justify-content: center;
     align-items: center;
+    order: 1;
 }
 .nav-items-a{
     border: none;
     text-decoration: none;
     padding: 6px;
-    font-size: 32px;
-    color: #ccc;
-    transition: all .6s;
-}
-.nav-items-a:hover{
+    font-size: 24px;
     color: #fff;
+    transition: all .6s;
 }

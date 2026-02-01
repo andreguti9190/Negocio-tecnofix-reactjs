@@ -5,10 +5,13 @@ function Contacto() {
     console.log(links)
     return (
         <>
-            <footer  className="footer">
-                <h3>Contacto</h3>
-                <div className="contact">
-                    { links.data.map((item)=> <div key={item.id} className="contact-item" ><a href={item.link}className="contact-bt">{item.name}</a></div>) }
+            <footer className="footer">
+                <h3>TecnoFix</h3>
+                <div className="footer-list">
+                    <div className="contact">
+                        {links.data.map((item) => <a key={item.id} href={item.link} className="contact-bt">{item.name}</a>)}
+                    </div>
+                    <img className="contact-logo" src="/logo.png" alt="" />
                 </div>
             </footer>
         </>

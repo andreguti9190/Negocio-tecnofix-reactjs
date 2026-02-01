@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 :root{
-  font-family: "Rubik", sans-serif;
+  font-family: "Inter", sans-serif;
   display: block;
 }
 :root::selection{

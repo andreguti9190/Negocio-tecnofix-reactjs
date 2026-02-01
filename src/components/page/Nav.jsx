@@ -5,7 +5,7 @@ function Nav() {
         <>
             <nav className="nav">
                 <div className="nav-items">
-                    <img src="/logo.png" alt="TecnoFix" height="80px"/>
+                    <img src="/logo-titulo.png" alt="TecnoFix"/>
                 </div>
                 <div className="nav-items">
                     <a href="#" className="nav-items-a">Objetivos</a>
