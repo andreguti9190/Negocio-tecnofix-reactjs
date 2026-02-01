@@ -4,9 +4,11 @@ function Cover() {
     return (
         <>
             <div className="cover">
-                <div className="cover-msg">
-                    <h2 className="cover-msg-h2">TecnoFix</h2>
-                    <p className="cover-msg-p">Reparaciones y mantenimientos de computadoras</p>
+                <div className="filter-cover">
+                    <div className="cover-msg">
+                        <img className="cover-msg-img" src="./titulo.png" alt="TecnoFix" />
+                        <p className="cover-msg-p">Reparaciones y mantenimientos de computadoras</p>
+                    </div>
                 </div>
             </div>
         </>

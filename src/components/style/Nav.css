@@ -3,29 +3,32 @@
     user-select: none;
     text-shadow: 1px 1px #000;
     font-weight: bolder;
-    position: fixed;
+    position:absolute;
     top: 0;
     color: rgb(255, 255,255);
     width: 100%;
-    padding: 15px;
+    padding:10px 30px;
     display: flex;
     justify-content: space-between;
+    z-index: 10;
 }
 .nav img{
     width: 120px;
     filter: drop-shadow(2px 2px #000);
 }
-.nav-items{
+.navbar-phone{
+    display: none;
+}
+.navbar{
     display: flex;
-    justify-content: center;
+    height: 100%;
     align-items: center;
     order: 1;
 }
-.nav-items-a{
+.navbar-a{
     border: none;
     text-decoration: none;
     padding: 6px;
     font-size: 24px;
     color: #fff;
-    transition: all .6s;
 }

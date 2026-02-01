@@ -1,3 +1,5 @@
+import Navbar from "./Navbar.jsx";
+import NavbarPhone from "./NavbarPhone.jsx";
 import "../style/Nav.css"
 
 function Nav() {
@@ -5,12 +7,11 @@ function Nav() {
         <>
             <nav className="nav">
                 <div className="nav-items">
-                    <img src="/logo-titulo.png" alt="TecnoFix"/>
+                    <img src="/logo.png" alt="TecnoFix" />
                 </div>
                 <div className="nav-items">
-                    <a href="#" className="nav-items-a">Objetivos</a>
-                    <a href="#" className="nav-items-a">Sobre Nosotros</a>
-                    <a href="#" className="nav-items-a">Contactanos</a>
+                    <Navbar />
+                    <NavbarPhone />
                 </div>
             </nav>
         </>

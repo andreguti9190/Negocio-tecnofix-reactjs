@@ -11,7 +11,7 @@ function Contacto() {
                     <div className="contact">
                         {links.data.map((item) => <a key={item.id} href={item.link} className="contact-bt">{item.name}</a>)}
                     </div>
-                    <img className="contact-logo" src="/logo.png" alt="" />
+                    <img className="contact-logo" src="/logo-titulo.png" alt="" />
                 </div>
             </footer>
         </>
