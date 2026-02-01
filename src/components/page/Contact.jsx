@@ -2,7 +2,6 @@ import "../style/Contact.css"
 import links from "../../config/links.json"
 
 function Contacto() {
-    console.log(links)
     return (
         <>
             <footer className="footer">
