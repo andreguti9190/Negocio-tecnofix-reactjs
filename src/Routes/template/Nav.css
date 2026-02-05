@@ -2,7 +2,7 @@
     user-select: none;
     text-shadow: 1px 1px #000;
     font-weight: bolder;
-    position: absolute;
+    position: static;
     top: 0;
     color: rgb(255, 255, 255);
     width: 100%;
@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     z-index: 10;
+    background-color: rgb(44, 9, 85);
 }
 
 .nav img {
@@ -34,7 +35,7 @@
     order: 1;
 }
 
-.navbar-a {
+.navbar a {
     border: none;
     text-decoration: none;
     padding: 6px;
@@ -49,13 +50,13 @@
     cursor: pointer;
 }
 
-.navbar-a:hover {
+.navbar a:hover {
     text-decoration: underline;
     color: #fff;
 }
 
-.navbar-phone-a:hover {
-    text-decoration: underline;
+.navbar-phone a:hover {
+    background-color: rgb(57, 12, 109);
 }
 
 @media screen and (max-width:762px) {

@@ -1,7 +1,7 @@
-import "../style/Contact.css"
-import links from "../../config/links.json"
+import links from "../../links.json"
+import './Footer.css'
 
-function Contacto() {
+function Footer() {
     return (
         <>
             <footer className="footer">
@@ -17,4 +17,4 @@ function Contacto() {
     )
 }
 
-export default Contacto;
+export default Footer;
